@@ -11,6 +11,7 @@ class Shape : public MovableGLM
 	LineMesh *lineMesh;
 	Texture *tex;
 	bool isCopy;
+	int maxNumOfTriangles;
 public:
 	enum{triangles,lines};
 	Shape(const Shape& shape);
