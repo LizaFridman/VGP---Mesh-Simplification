@@ -7,6 +7,13 @@ Scene scn(glm::vec3(0.0f, 0.0f, -15.0f), CAM_ANGLE, relation, NEAR, FAR);
 
 int main(int argc, char** argv)
 {
+	/*int i, maxNumOfTriangles = INT32_MAX;
+
+	for (i = 0; i < argc; i++) {
+		if (argv[i] != "") {
+			maxNumOfTriangles = 
+		}
+	}*/
 	initCallbacks(display);
 	//scn.addShape("./res/objs/bigbox.obj","./res/textures/box0.bmp");
 	//scn.addShape("./res/objs/testboxNoUV.obj");
